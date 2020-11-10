@@ -7,7 +7,9 @@ HOW to upload firmware to the control board
 ===============================================================================
 How to Connect the LCD 128x64 screen and TFT-LCD screen:
 LCD12864 connect to EXP1 connector
-TFT_LCD connect to EXP1 connector (Upload firmware to the control board of printer first)
+TFT_LCD connect to EXP1 connector (Upload a firmware supporting TFT-LCD to the control board of printer first)
+TFT_LCD files  download link: https://github.com/ZONESTAR3D/TFT-LCD
+===============================================================================
 
 
 ===============================================================================
