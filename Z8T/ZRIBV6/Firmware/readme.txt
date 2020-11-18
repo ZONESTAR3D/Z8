@@ -5,6 +5,14 @@ HOW to upload firmware to the control board
 ===============================================================================
 
 ===============================================================================
+After upload firmware, please do the below steps on LCD screen:
+1. Initliza EEPROM:  Configuaration>>Advance settings>>Initlize EEPROM
+2. Fine Tune PID parameter of hotend: Configuaration>>Advance settings>>Temperature>> PID AutoTune E1: 190, 
+set to 200 if you used to print PLA filament and 240 degree if you used to print ABS filament, 
+and then wait about 10 minute until it finished.
+===============================================================================
+
+===============================================================================
 How to Connect the LCD 128x64 screen and TFT-LCD screen:
 LCD12864 connect to EXP1 connector
 TFT_LCD connect to EXP1 connector (Upload a firmware supporting TFT-LCD to the control board of printer first)
